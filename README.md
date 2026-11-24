@@ -1,4 +1,4 @@
-# scrapenest-dev
+# ScrapeNest
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scrapenest-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://scrapenest.dev/
+ScrapeNest provides a web scraping and search API that returns clean JSON for AI agents and developers. It offers multi‑engine web search, URL scraping that bypasses anti‑bot measures, Google Maps reviews extraction, audio transcription, and translation across 28 languages. All endpoints are billed per credit and can be accessed via a single bearer token.
+
+**Areas:** Web Scraping · Search API · AI Agents · Maps Reviews · Audio Transcripts · Translation
+
+## ScrapeNest on APIs.io
+
+Everything profiled for ScrapeNest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scrapenest-dev/](https://apis.io/providers/scrapenest-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [ScrapeNest Account API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-account-api/) — The key and account behind a call.
+- [ScrapeNest Audio API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-audio-api/) — Transcripts of audio and video URLs.
+- [ScrapeNest Gas prices API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-gas-prices-api/) — Live US gas station prices.
+- [ScrapeNest Google Maps API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-google-maps-api/) — Reviews for a Google Maps place.
+- [ScrapeNest Runs API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-runs-api/) — Poll or cancel async runs.
+- [ScrapeNest Scrape API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-scrape-api/) — Pages, batches, screenshots and PDFs from any URL.
+- [ScrapeNest Search API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-search-api/) — Web search, deep search and answers with cited sources.
+- [ScrapeNest Translate API](https://apis.io/apis/scrapenest-dev/scrapenest-dev-translate-api/) — Text translation.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [ScrapeNest Agentic Access](https://apis.io/agentic-access/scrapenest-dev/scrapenest-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AnswerRequest](https://apis.io/schemas/scrapenest-dev/scrapenest-dev-answer-request/)
+- [DeepSearchRequest](https://apis.io/schemas/scrapenest-dev/scrapenest-dev-deep-search-request/)
+- [ScrapeUrlRequest](https://apis.io/schemas/scrapenest-dev/scrapenest-dev-scrape-url-request/)
+- [ScrapeUrlResponse](https://apis.io/schemas/scrapenest-dev/scrapenest-dev-scrape-url-response/)
+- [ScreenshotRequest](https://apis.io/schemas/scrapenest-dev/scrapenest-dev-screenshot-request/)
+- [SearchRequest](https://apis.io/schemas/scrapenest-dev/scrapenest-dev-search-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Scrapenest Dev Context](https://apis.io/jsonld/scrapenest-dev/scrapenest-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ScrapeNest API Rules](https://apis.io/rules/scrapenest-dev/scrapenest-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ScrapeNest Authentication](https://apis.io/security/scrapenest-dev/scrapenest-dev-authentication/)
+- [ScrapeNest Domain Security](https://apis.io/security/scrapenest-dev/scrapenest-dev-domain-security/)
+- [ScrapeNest Vulnerability Disclosure](https://apis.io/security/scrapenest-dev/scrapenest-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ScrapeNest Plans Pricing](https://apis.io/plans/scrapenest-dev/scrapenest-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scrapenest.dev/)
+- [Documentation](https://scrapenest.dev/docs)
+- [Getting started](https://scrapenest.dev/docs#mcp)
+- [API reference](https://scrapenest.dev/reference)
+- [Pricing](https://scrapenest.dev/pricing)
+- [Support](https://scrapenest.dev/support)
+- [Changelog](https://scrapenest.dev/changelog)
+- [Blog](https://scrapenest.dev/blog)
+- [Terms of service](https://scrapenest.dev/terms)
+- [Privacy policy](https://scrapenest.dev/privacy)
+- [Status](https://status.scrapenest.dev/)
+
+## API Evangelist rating
+
+**Kin Score 64.7** — strong · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 49.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scrapenest-dev/](https://apis.io/providers/scrapenest-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ScrapeNest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scrapenest-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
